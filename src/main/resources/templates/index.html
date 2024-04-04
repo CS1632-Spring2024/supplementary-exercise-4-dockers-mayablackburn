@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <script src="/js/rentacat.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CS1632 D3</title>
+    <link rel="stylesheet" href="/css/app-3f43e0587ba58d7af23f1e92d90aeac9.css?vsn=d">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav role="navigation">
+          <ul class="nav nav-pills pull-right">
+            <li><a href="/">Catalog</a></li>
+	    <li><a href="/rent-a-cat">Rent-A-Cat</a><li>
+	    <li><a href="/feed-a-cat">Feed-A-Cat</a><li>
+	    <li><a href="/greet-a-cat">Greet-A-Cat</a><li>
+	    <li><a href="/reset">Reset</a><li>
+          </ul>
+        </nav>
+        <span class="logo"></span>
+      </header>
+
+      <p class="alert alert-info" role="alert"></p>
+      <p class="alert alert-danger" role="alert"></p>
+
+      <main role="main">
+<div class="jumbotron" th:utext="${content}">
+</div>
+
+<div class="row">
+  <p class="lead">Used for CS1632 Software Quality Assurance, taught by Wonsun Ahn</p>
+</div>
+      </main>
+
+    </div> <!-- /container -->
+    <script src="/js/app-b6ee6deb471488a82a959c025aa56128.js?vsn=d"></script>
+  </body>
+</html>
+
